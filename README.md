@@ -8,7 +8,8 @@ Validate YAML file
 
 ## Multiple files
 
-```$ vyaml /etc/puppet/hieradata/common.yaml /etc/puppetlabs/code/hiera.yaml /tmp/hiera.yaml 
+```
+$ vyaml /etc/puppet/hieradata/common.yaml /etc/puppetlabs/code/hiera.yaml /tmp/hiera.yaml 
 /etc/puppet/hieradata/common.yaml: Syntax Ok!
 /etc/puppetlabs/code/hiera.yaml: Syntax Ok!
 /tmp/hiera.yaml: /opt/puppetlabs/puppet/lib/ruby/2.1.0/psych.rb:370:in `parse': (/tmp/hiera.yaml): could not find expected ':' while scanning a simple key at line 14 column 3 (Psych::SyntaxError)
@@ -23,7 +24,8 @@ Syntax Error!
 ```
 
 ## Single file
-```$ vyaml /etc/puppet/hieradata/common.yaml
+```
+$ vyaml /etc/puppet/hieradata/common.yaml
 Syntax Ok!
 ```
 
