@@ -6,7 +6,7 @@ alias pat='puppet agent -t'
 alias gop='pushd /etc/puppetlabs/puppet'
 
 # search directories (cd ssl => /etc/puppetlabs/puppet/ssl)
-export CDPATH=/etc/puppetlabs:/etc/puppetlabs/puppet:/opt/puppetlabs:/opt/puppetlabs/puppet:/opt/puppetlabs/server:$CDPATH
+export CDPATH=.:/etc/puppetlabs:/etc/puppetlabs/puppet:/opt/puppetlabs:/opt/puppetlabs/puppet:/opt/puppetlabs/server:$CDPATH
 export PATH=/opt/puppetlabs/bin:/opt/puppetlabs/server/bin:/opt/puppetlabs/puppet/bin:$PATH
 
 # validation
